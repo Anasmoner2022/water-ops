@@ -1,0 +1,40 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Go build and test output
+/bin/
+/dist/
+*.exe
+*.exe~
+*.test
+*.out
+coverage/
+
+# Frontend dependencies and output
+node_modules/
+.next/
+.vite/
+
+# Optional local data tooling
+__pycache__/
+*.py[cod]
+.venv/
+
+# Runtime state, reports and database dumps
+/.local/
+/data/runtime/
+/data/uploads/
+/artifacts/
+*.log
+*.dump
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
